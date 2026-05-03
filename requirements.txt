@@ -1,0 +1,40 @@
+# ── Telegram Bot ──────────────────────────────────────────────
+python-telegram-bot==21.5
+
+# ── LLM (Groq - Free) ─────────────────────────────────────────
+openai==1.51.0          # Groq uses OpenAI-compatible API
+
+# ── Vision (Google Gemini - Free) ─────────────────────────────
+google-generativeai==0.8.3
+
+# ── Voice ─────────────────────────────────────────────────────
+openai-whisper==20240930    # Whisper ASR (local, free)
+gTTS==2.5.3                 # Google TTS (free)
+
+# ── Vector DB / RAG ───────────────────────────────────────────
+chromadb==0.5.20
+sentence-transformers==3.3.1
+
+# ── Weather / HTTP ────────────────────────────────────────────
+requests==2.32.3
+
+# ── Web Scraping (mandi prices) ───────────────────────────────
+beautifulsoup4==4.12.3
+
+# ── Database (Supabase) ───────────────────────────────────────
+supabase==2.10.0
+
+# ── Price Forecasting ─────────────────────────────────────────
+prophet==1.1.6          # Optional: falls back to heuristic if missing
+pandas==2.2.3
+numpy==1.26.4
+
+# ── PDF Ingestion (optional) ──────────────────────────────────
+pymupdf==1.24.14        # For ingesting PDF crop manuals
+
+# ── Env ───────────────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── Utilities ─────────────────────────────────────────────────
+langdetect==1.0.9
+ffmpeg-python==0.2.0    # Required by Whisper for audio processing

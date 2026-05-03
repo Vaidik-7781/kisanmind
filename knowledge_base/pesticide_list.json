@@ -1,0 +1,79 @@
+{
+  "banned_in_india": {
+    "source": "CIB&RC (Central Insecticides Board & Registration Committee)",
+    "last_updated": "2024",
+    "pesticides": [
+      "Endosulfan",
+      "Monocrotophos",
+      "Methyl Parathion",
+      "Phorate",
+      "Triazophos",
+      "DDT (for agriculture)",
+      "Lindane",
+      "Chlordane",
+      "Heptachlor",
+      "Aldrin",
+      "Dieldrin",
+      "Aldicarb",
+      "Captafol",
+      "Chlorobenzilate",
+      "Maleic Hydrazide",
+      "Ethylene Dibromide",
+      "Nitrofen",
+      "Paraquat Dimethyl Sulphate",
+      "Sodium Cyanide",
+      "Nicotine Sulphate"
+    ]
+  },
+  "approved_common": {
+    "fungicides": [
+      { "name": "Mancozeb 75WP",      "dose": "2g/L",     "crops": ["tomato","potato","grape"], "phi_days": 7,  "organic": false },
+      { "name": "Carbendazim 50WP",   "dose": "1g/L",     "crops": ["rice","wheat","mango"],    "phi_days": 10, "organic": false },
+      { "name": "Propiconazole 25EC", "dose": "1ml/L",    "crops": ["wheat","rice","maize"],    "phi_days": 28, "organic": false },
+      { "name": "Tebuconazole 25.9EC","dose": "1ml/L",    "crops": ["wheat","soybean"],         "phi_days": 21, "organic": false },
+      { "name": "Metalaxyl 8%+Mancozeb 64% WP", "dose": "2.5g/L", "crops": ["tomato","potato","chilli"], "phi_days": 3, "organic": false },
+      { "name": "Copper Oxychloride 50WP", "dose": "3g/L","crops": ["all"],                     "phi_days": 3,  "organic": true  },
+      { "name": "Sulphur 80WP",       "dose": "2g/L",     "crops": ["grape","apple","wheat"],   "phi_days": 3,  "organic": true  },
+      { "name": "Tricyclazole 75WP",  "dose": "0.6g/L",   "crops": ["rice"],                   "phi_days": 5,  "organic": false }
+    ],
+    "insecticides": [
+      { "name": "Imidacloprid 17.8SL",  "dose": "0.5ml/L",  "crops": ["cotton","mustard","rice"], "phi_days": 21, "organic": false },
+      { "name": "Emamectin Benzoate 5SG","dose": "0.5g/L",  "crops": ["cotton","tomato"],         "phi_days": 14, "organic": false },
+      { "name": "Spinosad 45SC",         "dose": "0.3ml/L", "crops": ["cotton","vegetables"],     "phi_days": 3,  "organic": true  },
+      { "name": "Bt (Bacillus thuringiensis)", "dose": "1g/L","crops": ["all"],                  "phi_days": 0,  "organic": true  },
+      { "name": "Dimethoate 30EC",       "dose": "2ml/L",   "crops": ["mustard","citrus"],        "phi_days": 14, "organic": false },
+      { "name": "Chlorpyrifos 20EC",     "dose": "2.5ml/L", "crops": ["rice","maize"],           "phi_days": 21, "organic": false },
+      { "name": "Lambda Cyhalothrin 5EC","dose": "1ml/L",   "crops": ["soybean","cotton"],        "phi_days": 14, "organic": false }
+    ],
+    "herbicides": [
+      { "name": "Glyphosate 41SL",    "dose": "1.5L/ha",  "use": "non-crop area only",  "organic": false },
+      { "name": "Atrazine 50WP",      "dose": "1kg/ha",   "crops": ["maize","sorghum"],  "organic": false },
+      { "name": "Pendimethalin 30EC", "dose": "3L/ha",    "crops": ["wheat","onion"],    "organic": false },
+      { "name": "2,4-D Amine",        "dose": "0.5kg/ha", "crops": ["wheat","rice"],     "organic": false }
+    ],
+    "organic_options": [
+      { "name": "Neem Oil",              "dose": "5ml + 2ml soap/L", "crops": ["all"],       "phi_days": 0, "targets": ["aphids","whitefly","mites","thrips"] },
+      { "name": "Neem Seed Kernel Extract (NSKE)", "dose": "50g/L", "crops": ["all"],        "phi_days": 0, "targets": ["bollworm","thrips","BPH"] },
+      { "name": "Beauveria bassiana",    "dose": "5g/L",  "crops": ["all"],                  "phi_days": 0, "targets": ["whitefly","aphids","beetles"] },
+      { "name": "Trichoderma viride",    "dose": "4g/kg seed", "crops": ["all"],             "phi_days": 0, "targets": ["soil-borne fungi","damping off"] },
+      { "name": "Bordeaux Mixture",      "dose": "1%",    "crops": ["potato","tomato","grape"],"phi_days": 3, "targets": ["late blight","downy mildew"] }
+    ]
+  },
+  "safety_guidelines": [
+    "Always wear gloves, mask, and protective clothing when spraying",
+    "Spray in early morning or evening — avoid midday heat",
+    "Do NOT spray when wind speed > 15 km/hr",
+    "Keep children and animals away from sprayed area",
+    "Wash hands thoroughly after handling pesticides",
+    "Store pesticides in original container, locked away from food",
+    "Never spray within 48 hours of heavy rain",
+    "Follow Pre-Harvest Interval (PHI) strictly before harvesting",
+    "Dispose of empty containers safely — do not reuse",
+    "Report poisoning immediately: Pesticide Poison Centre: 1800-425-1213"
+  ],
+  "helpline": {
+    "pesticide_poison": "1800-425-1213",
+    "kisan_call_centre": "1800-180-1551",
+    "cib_rc_website": "http://cibrc.nic.in"
+  }
+}
