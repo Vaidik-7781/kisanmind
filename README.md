@@ -281,5 +281,6 @@ Built with ❤️ for 600 million Indian farmers.
 ## Developer
 
 **Vaidik Gupta**
+
 B.Tech — Electronics & Computer Science Engineering, KIIT University
 [github.com/Vaidik-7781](https://github.com/Vaidik-7781)
